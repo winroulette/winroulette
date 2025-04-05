@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gracias por tu solicitud - Winroulette</title>
+    <link rel="stylesheet" href="main.css">
+    <style>
+        .thanks-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 70vh;
+            text-align: center;
+            padding: 2rem;
+        }
+        
+        .thanks-message {
+            background-color: rgba(74, 0, 114, 0.1);
+            border: 2px solid #4a0072;
+            border-radius: 10px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            max-width: 600px;
+            animation: fadeIn 1s ease;
+        }
+        
+        .thanks-title {
+            color: #4a0072;
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .back-btn {
+            display: inline-block;
+            background-color: #4a0072;
+            color: white;
+            text-decoration: none;
+            padding: 1rem 2rem;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            margin-top: 1rem;
+        }
+        
+        .back-btn:hover {
+            background-color: #6a0ea2;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="assets/logo.png" alt="Logo Winroulette" class="logo">
+        </div>
+    </header>
+
+    <main class="thanks-container">
+        <div class="thanks-message">
+            <h1 class="thanks-title">¡Gracias por tu solicitud!</h1>
+            <p>Hemos recibido tu idea de juego y la revisaremos pronto.</p>
+            <p>Nuestro equipo se pondrá en contacto contigo al correo electrónico proporcionado si decidimos desarrollar tu concepto.</p>
+            <p>Mientras tanto, te invitamos a explorar nuestros juegos actuales.</p>
+            <a href="main.html" class="back-btn">Volver al sitio web</a>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 Winroulette. Todos los derechos reservados.</p>
+            <div class="social-links">
+                <a href="#" class="social-link">Instagram</a>
+                <a href="#" class="social-link">Twitter</a>
+                <a href="#" class="social-link">YouTube</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
